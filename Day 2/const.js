@@ -7,7 +7,7 @@
 //Scope of Varible const
 function main() {
     const i = 2;
-    for (var a = 0; a < 5; a++) {
+    for (const i = 0; i < 5; i++) {
         console.log(i);
     }
     console.log(i);
@@ -16,7 +16,7 @@ function main() {
 
 const b=0;
 console.log('Declaration');
-for(var b2=1; b2 < 4; b2++)
+for(const b=1; b < 4; b++)
 {
     
     console.log(b);
